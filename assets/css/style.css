@@ -187,6 +187,12 @@ nav {
     padding: 12px 0;
 }
 
+/* Product Page */
+.product-banner {
+    text-align: center;
+    color: var(--third-color)
+}
+
 /* Footer */
 footer {
     position: absolute;
