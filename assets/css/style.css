@@ -193,6 +193,19 @@ nav {
     color: var(--third-color)
 }
 
+/* Contact */
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    color: var(--fifth-color);
+}
+
+.contact h3 {
+    padding-top: 12px;
+}
+
 /* Privacy Policy & Terms */
 .privacy {
     padding: 20px 35px;
