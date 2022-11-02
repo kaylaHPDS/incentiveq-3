@@ -30,8 +30,30 @@ body {
 }
 
 /* Global Styles */
+h1 {
+    font-family: 'Permanent Marker', serif;
+    font-size: 32px;
+} 
+
+h2 {
+    font-family: 'Permanent Marker', serif;
+    font-size: 40px;
+    color: var(--third-color);
+    line-height: 1.1;
+}
+
 h3 {
     color: var(--sixth-color);
+    font-weight: bold;
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .text-shadow {
@@ -51,10 +73,14 @@ h3 {
     filter: drop-shadow(-1px 1px 2px rgba(21, 23, 33, 0.3));
 }
 
+.btn:hover {
+    background-color: var(--fifth-color);
+}
+
 /* Banner */
 .banner {
     background-image: url("../images/3500x1500-flip-pexels-tim-mossholder-3612932.jpg");
-    background-position: center center; 
+    background-position: top center; 
     background-repeat: no-repeat; 
     background-size: cover;
     background-attachment: fixed;  
@@ -75,6 +101,10 @@ header a {
     color: var(--first-color);
 }
 
+header a:hover {
+    color: var(--fifth-color);
+}
+
 /* Nav & Footer Menus */
 .menu {
     display: flex;
@@ -88,6 +118,11 @@ header a {
     padding: 12px 6px;
 }
 
+nav {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 /* Hero */
 .hero {
     padding: 20px 35px;
@@ -98,6 +133,18 @@ header a {
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    /* filter: drop-shadow(-2px 2px 1px #000); */
+}
+
+.hero p {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--fourth-color);
+    background: radial-gradient(rgba(21,23,33,0.2), rgba(21,23,33,0.2));
+    line-height: 1.1;
+    border-radius: 50px;
+    padding: 10px 0;
+    filter: drop-shadow(-2px 2px 1px #000);
 }
 
 /* Homepage */
@@ -153,6 +200,14 @@ footer {
     align-items: center;
     font-size: 12px;
     font-style: italic;
+}
+
+footer a {
+    color: var(--fifth-color);
+}
+
+footer a:hover {
+    color: var(--sixth-color)
 }
 
 /* MEDIA QUERIES */
