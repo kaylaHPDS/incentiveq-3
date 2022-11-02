@@ -193,6 +193,15 @@ nav {
     color: var(--third-color)
 }
 
+/* Privacy Policy & Terms */
+.privacy {
+    padding: 20px 35px;
+}
+
+.privacy p {
+    padding: 6px 0;
+}
+
 /* Footer */
 footer {
     position: absolute;
@@ -206,6 +215,7 @@ footer {
     align-items: center;
     font-size: 12px;
     font-style: italic;
+    color: var(--fifth-color);
 }
 
 footer a {
