@@ -196,7 +196,7 @@ nav {
     padding: 12px 0;
 }
 
-.product-text-center {
+.product-text-center p {
     font-size: 14px;
 }
 
@@ -233,6 +233,15 @@ nav {
 
 .cart-btn a {
     margin: 10px;
+}
+
+/* Checkout */
+.checkout a {
+    color: var(--fifth-color);
+}
+
+.checkout p {
+    padding: 12px 0;
 }
 
 /* Contact */
