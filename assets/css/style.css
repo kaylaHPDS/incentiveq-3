@@ -323,6 +323,33 @@ footer a:hover {
         flex-direction: column;
         align-items: center;
     }
+
+    .product-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        padding: 20px 35px;
+        width: 100%;
+    }
+    
+    .product-row img {
+        width: 80%;
+        padding: 20px;
+    }
+    
+    .product-text-left {
+        width: 100%;
+    }
+    
+    .product-text-right {
+        width: 100%;
+    }
+
+    .product-text-center {
+        width: 100%;
+    }
 }
  
 /* For mobile phones and smaller */
@@ -346,32 +373,10 @@ footer a:hover {
     .menu li {
         padding: 12px 6px;
     }
-
-    .product-row {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        flex-direction: column;
-        padding: 20px 35px;
-        width: 100%;
-    }
     
     .product-row img {
         width: 100%;
         padding: 20px;
-    }
-    
-    .product-text-left {
-        width: 100%;
-    }
-    
-    .product-text-right {
-        width: 100%;
-    }
-
-    .product-text-center {
-        width: 100%;
     }
 
     .cart-row {
