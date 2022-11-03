@@ -54,6 +54,11 @@ h4 {
 
 a {
     text-decoration: none;
+    color: var(--fifth-color);
+}
+
+a:hover {
+    color: var(--sixth-color);
 }
 
 .text-shadow {
@@ -229,6 +234,7 @@ nav {
 .cart-btn {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .cart-btn a {
@@ -236,10 +242,6 @@ nav {
 }
 
 /* Checkout */
-.checkout a {
-    color: var(--fifth-color);
-}
-
 .checkout p {
     padding: 12px 0;
 }
@@ -247,10 +249,6 @@ nav {
 /* Contact */
 .contact {
     text-align: center;
-}
-
-.contact a {
-    color: var(--fifth-color);
 }
 
 .contact h3 {
